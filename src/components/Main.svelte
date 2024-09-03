@@ -2,7 +2,7 @@
 import Step from "./Step.svelte"
 let steps = [
     {name: 'Store', icon: 'fa-solid fa-cart-shopping'},
-    {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
+    {name: 'AdoptMe', image: '/images/pawIcon.png'},
     {name: 'OnePiece', icon: 'fa-solid fa-diagram-project'}
 ]
 
@@ -54,10 +54,12 @@ A few of my creative endeavors
 
 <div class =" grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}> 
-        
+        <p> </p>
     </Step>
     <Step step={steps[1]}> 
-        
+        <p>AdoptMe is a Full Stack <strong class = "text-violet-400"> SvelteKit, Node.js + Express.js</strong> website that allows the loged in user to
+            publish and view articles regarding animal adoption and animal nourishment. It utilizes the <strong class = "text-violet-400"> MySQL database system </strong> to store and retrieve the required articles 
+            and also customizing the user profile.
     </Step>
     <Step step={steps[2]}> 
         
