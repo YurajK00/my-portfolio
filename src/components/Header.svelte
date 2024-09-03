@@ -12,7 +12,7 @@
 
 ) }>
     <h1 class = "font-medium"> 
-        <b class = "font-bold poppins">Yuraj</b> Kharche
+        <b class = "font-bold poppins text-2xl">Yuraj</b> <span class ="text-xl">Kharche</span>
     </h1>
     <div class ="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
