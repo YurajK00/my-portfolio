@@ -4,8 +4,8 @@
     import Header from  "../components/Header.svelte";
 
     let y;
-    let innerHeight = 0 
-    let innerWidth = 0 
+    let innerHeight = 2
+    let innerWidth = 2
 
     function goTop() {
         document.body.scrollIntoView()
