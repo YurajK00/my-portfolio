@@ -1,5 +1,12 @@
 <script> 
-    // Your script here
+import Step from "./Step.svelte"
+let steps = [
+    {name: 'Store', icon: 'fa-solid fa-cart-shopping'},
+    {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
+    {name: 'OnePiece', icon: 'fa-solid fa-diagram-project'}
+]
+
+
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -16,7 +23,7 @@
             </p>
         
             <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 
-            cursor-pointer" href = "#" target = "blank">
+            cursor-pointer" href = "#" target = "_blank">
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
 
                 <h4 class="relative z-9"> Get in touch &rarr;</h4>
@@ -40,13 +47,22 @@ A few of my creative endeavors
    
 </div>
 <a href = "https://github.com/YurajK00" target= "_blank" class = " mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200 ">
-    <i class = "fa-regular fa-cirlce-play"></i>
+    <i class = "fa-regular fa-circle-play"></i>
     <p>Go to my github</p>
  </a>
 
 
-
-
+<div class =" grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+    <Step step={steps[0]}> 
+        
+    </Step>
+    <Step step={steps[1]}> 
+        
+    </Step>
+    <Step step={steps[2]}> 
+        
+    </Step>
+</div>
 
 
 
