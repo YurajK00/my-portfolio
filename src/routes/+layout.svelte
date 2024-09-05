@@ -15,7 +15,7 @@
 
  
   </script>
-  <div class = "relative flex flex-col max-w-[1400px] mx-auto w-full text-sm
+  <div class = "relative flex flex-col mx-auto w-full text-sm
   sm:text-base min-h-screen">
 
   <div class = {"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " +( y > 0 ? 'opacity-full pointer-events-auto ': 'pointer-events-none opacity-0'
