@@ -1,5 +1,5 @@
 <script>
-    import Aboutme from "../components/Aboutme.svelte";
+    import Aboutme from "$lib/components/Aboutme.svelte";
 
 </script>
 

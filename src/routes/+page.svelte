@@ -1,11 +1,8 @@
 
 <script>
-    import Main from "../components/Main.svelte";
-
-
-    import Aboutme from "../components/Aboutme.svelte";
+    import Main from "$lib/components/Main.svelte";
     
 </script>
 
 <Main/>
-<Aboutme/>
+

@@ -3,12 +3,12 @@
     export let y;
     let tabs = [
         {name: 'Projects', link:'#projects'},
-        {name: 'About me' ,link:'#about'}
+        {name: 'About me' ,link:'/Aboutme'}
 
     ]
 
 </script>
-<header class = {'sticky  z-[10] top-0 duration-200 px-10 flex items-center justify-between border border-solid h-16 py-15' + ( y > 0 ? 'bg-slate-950 border-violet-950' : 'bg-transport border-transparent'
+<header class = {'sticky  z-[10] top-0 duration-200 px-10 flex items-center justify-between border border-solid h-16 py-15' + ( y > 0 ? 'bg-slate-950 border-violet-950' : 'bg-transport border-opaque'
 
 ) }>
     <h1 class = "font-medium px-4"> 

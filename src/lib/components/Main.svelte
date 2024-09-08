@@ -6,6 +6,7 @@ let steps = [
     {name: 'OnePiece', icon: 'fa-solid fa-diagram-project'}
 ];
 
+import { Link } from 'svelte-routing'
 
 </script>
 
@@ -35,7 +36,7 @@ let steps = [
     </div>
         </section>
 
-
+     
 
 
     <section id ="projects" class = "py-20 lg:py-32 flex flex-col gap-24">
