@@ -1,9 +1,9 @@
 <script>
     import Step from "./Step.svelte"
 let steps = [
-    {name: 'Store', icon: 'fa-solid fa-cart-shopping'},
+    {name: 'Data Mining and Big Data', icon: 'fa-solid fa-cart-shopping'},
     {name: 'AdoptMe', image: '/images/pawIcon.png'},
-    {name: 'OnePiece', icon: 'fa-solid fa-diagram-project'}
+    {name: 'Naive-Bayes Algorithm', icon: 'fa-solid fa-diagram-project'}
 ];
 </script>
 
