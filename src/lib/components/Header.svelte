@@ -2,9 +2,9 @@
 
     export let y;
     let tabs = [
-        {name: 'Projects', link:'#projects'},
+        {name: 'Projects', link:'/Projects'},
         {name: 'About me' ,link:'/Aboutme'}
-
+        
     ]
 
 </script>
@@ -12,7 +12,7 @@
 
 ) }>
     <h1 class = "font-medium px-4"> 
-        <b class = "font-bold poppins text-3xl">Yuraj</b> <span class ="text-2xl">Kharche</span>
+     <a href= "/Main"> <b class = "font-bold poppins text-3xl">Yuraj</b> <span class ="text-2xl">Kharche</span></a>
     </h1>
     <div class ="sm:flex ml-auto pr-10 items-center gap-4 hidden">
         {#each tabs as tab, index}
